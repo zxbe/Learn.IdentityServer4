@@ -14,6 +14,7 @@ namespace Api
     {
         public static void Main(string[] args)
         {
+            Console.Title = "API";
             CreateWebHostBuilder(args).Build().Run();
         }
 
